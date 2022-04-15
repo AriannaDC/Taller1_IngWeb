@@ -1,0 +1,18 @@
+body{ 
+    background-color: rgb(238, 236, 232);
+}
+.logo{ 
+    margin-left: 65%;
+    margin-top: -12%;
+}
+.menu{ 
+    margin-left: 25%;
+    margin-top: 4%;
+}
+.galeria{
+    margin-left: 7%;
+    width:90%;
+    margin-top: 4%;
+    border: 2px black solid;
+    text-align: center;
+}
