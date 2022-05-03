@@ -1,0 +1,114 @@
+/*selectores*/
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{ 
+    background-color: #f2f2f2f2;
+    font-family: sans-serif;
+}
+/*
+.logo{ 
+    margin-left: 65%;
+    margin-top: -12%;
+}
+.menu{ 
+    margin-left: 25%;
+    margin-top: 4%;
+}
+.galeria{
+    margin-left: 7%;
+    width:90%;
+    margin-top: 4%;
+    border: 2px black solid;
+    text-align: center;
+}*/
+.cabecera_principal, .menuPrincipal .sliderprincipal, main, .piepagina { 
+    background: #ccc;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.cabecera_principal{ 
+    background-color: #ffffff;
+    box-shadow: #ccc 3px 2px 2px;
+    padding: 5px 10px;
+}
+.cabecera_principal h2{ 
+    background-color: #183080da;
+    padding: 10px, 40px;
+    text-shadow: #ccc 3px 2px 2px;
+}
+.menuPrincipal{
+    background-color: rgb(248, 184, 106);
+    text-align: center;
+    padding-top: 10px;
+    height: 30px;
+}
+.menuPrincipal a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #3A3A3A;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menuPrincipal a:hover{
+    background-color: #183080da;
+    color: white;
+    transition: 1s;
+}
+.sliderprincipal img{
+    width:100% ;
+}
+.h2Home{
+    text-align: center;
+    padding: 2em 0;
+    color: rgb(252, 145, 15);
+}
+.menu{
+    text-align: center;
+}
+
+.menuPlato{
+    width: 32%;
+    background-color: rgb(212, 194, 172);
+    margin-bottom: 1px;
+    border-radius: 5px;
+    border: 1px solid #BBB6B6;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.menuPlato img{
+    width: 100%;
+}
+.menuPlato h3{
+    color: rgb(252, 145, 15);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.menuPlato p{
+    font-size: 13px;
+    padding: 0.2em 1em;
+    color: #000000;
+}
+
+.menuPlato button{
+    color: rgb(40, 47, 143);
+    background-color: #d3dcf8;
+    text-align: center;
+    padding: 0.5em 1em;
+    margin-bottom: 5px;
+}
+
+.piepagina{
+    background-color: #1D1D1D;
+    color: #fff;
+}
+.piepagina h6{
+    background-color: #1D1D1D;
+    text-align: center;
+    padding: 2em 0;
+}
