@@ -42,15 +42,16 @@
                 <input type="text" name="correo" id="correo" 
                 placeholder="Ingrese su correo">
             </div>
-            <div class = "grupoInput">
-                <label for="edad">Edad</label>
-                <input type="number" name="edad" id="edad"
-                placeholder="Ingrese su edad" require>
-            </div>
+            
+            <select id="tipoUser" name="tipoUser">
+                <option>--</option>
+                <option value="1">Administrador</option>
+                <option value="2">Visitante</option>    
+        </select>
             <div class = "grupoInput">
                 <button type="submit" value="procesar">Procesar</button>
             </div>
-            </form>
+        </form>
     </main>
 
     <footer class="piepagina">
